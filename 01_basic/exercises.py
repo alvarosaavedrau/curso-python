@@ -66,10 +66,15 @@ print("4. El resultado debería ser 1")
 
 #? No se como hacerlo sin asignar una variable... import ??
 
-# Solución
+# Solución 1
+print("Solución 1")
 pi = 3.14159
 print(f"El número PI es: '{pi}'")
 pi_redondeado = round(pi)
 print(f"El número PI redondeado es: '{pi_redondeado}'")
 resultado = pi_redondeado // 2 # '//' es el operador de división entera, solo con '/' se hace la división decimal
 print(f"El resultado de dividir el número PI entre 2 es: '{resultado}'")
+
+# Solución 2
+print("Solución 2")
+print(f"El número PI es: '{round(3.14159) // 2}'")
